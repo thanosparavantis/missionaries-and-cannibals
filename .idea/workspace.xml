@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1fafea6-1ae3-40db-a290-66be5cc477a2" name="Default Changelist" comment="" />
+    <list default="true" id="f1fafea6-1ae3-40db-a290-66be5cc477a2" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +14,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,7 +42,6 @@
         <option value="$PROJECT_DIR$/src/com/papei/thanos/StateException.java" />
         <option value="$PROJECT_DIR$/src/com/papei/thanos/InvalidStateException.java" />
         <option value="$PROJECT_DIR$/src/com/papei/thanos/Operators.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/papei/thanos/Algorithm.java" />
         <option value="$PROJECT_DIR$/src/com/papei/thanos/StateSpace.java" />
         <option value="$PROJECT_DIR$/src/com/papei/thanos/State.java" />
@@ -42,6 +49,7 @@
         <option value="$PROJECT_DIR$/src/com/papei/thanos/BreadthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/com/papei/thanos/HillClimbingSearch.java" />
         <option value="$PROJECT_DIR$/src/com/papei/thanos/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -149,6 +157,7 @@
       <workItem from="1558004298446" duration="5591000" />
       <workItem from="1558369681066" duration="1000" />
       <workItem from="1559153144796" duration="1348000" />
+      <workItem from="1559155097889" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="Let's get started...">
       <created>1557656013508</created>
@@ -164,16 +173,31 @@
       <option name="project" value="LOCAL" />
       <updated>1559154349343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add out/">
+      <created>1559155194126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559155194126</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <created>1559155561920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559155561920</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21055000" />
+    <option name="totallyTimeSpent" value="21530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="998" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -182,7 +206,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.68601894" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.86966825" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992891" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -250,7 +274,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Let's get started..." />
     <MESSAGE value="Update!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update!!!" />
+    <MESSAGE value="Add out/" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/production/missionaries-cannibals/com/papei/thanos/Main.class">
@@ -409,14 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

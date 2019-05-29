@@ -1,0 +1,149 @@
+Missionaries and Cannibals
+Thanos Paravantis - P16112
+thanosparavantis@gmail.com
+
+Applying: Breadth Firsrt Search Algorithm
+
+Visiting:
+ooo xxx <===>          ___ ___
+Visiting:
+ooo xx_          <===> ___ X__
+Visiting:
+oo_ xx_          <===> O__ X__
+Visiting:
+ooo x__          <===> ___ XX_
+Visiting:
+ooo xxx <===>          ___ ___
+Visiting:
+ooo xx_ <===>          ___ X__
+Visiting:
+ooo xx_          <===> ___ X__
+Visiting:
+oo_ xx_          <===> O__ X__
+Visiting:
+ooo x__          <===> ___ XX_
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+ooo xxx <===>          ___ ___
+Visiting:
+ooo xx_ <===>          ___ X__
+Visiting:
+ooo x__ <===>          ___ XX_
+Visiting:
+ooo xx_          <===> ___ X__
+Visiting:
+oo_ xx_          <===> O__ X__
+Visiting:
+ooo x__          <===> ___ XX_
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+o__ x__          <===> OO_ XX_
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+ooo xxx <===>          ___ ___
+Visiting:
+ooo xx_ <===>          ___ X__
+Visiting:
+ooo x__ <===>          ___ XX_
+Visiting:
+oo_ xx_ <===>          O__ X__
+Visiting:
+ooo ___ <===>          ___ XXX
+Visiting:
+ooo xx_          <===> ___ X__
+Visiting:
+oo_ xx_          <===> O__ X__
+Visiting:
+ooo x__          <===> ___ XX_
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+o__ x__          <===> OO_ XX_
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+___ xx_          <===> OOO X__
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+ooo xxx <===>          ___ ___
+Visiting:
+ooo xx_ <===>          ___ X__
+Visiting:
+ooo x__ <===>          ___ XX_
+Visiting:
+oo_ xx_ <===>          O__ X__
+Visiting:
+ooo ___ <===>          ___ XXX
+Visiting:
+___ xxx <===>          OOO ___
+Visiting:
+___ xxx <===>          OOO ___
+Visiting:
+ooo ___ <===>          ___ XXX
+Visiting:
+ooo xx_          <===> ___ X__
+Visiting:
+oo_ xx_          <===> O__ X__
+Visiting:
+ooo x__          <===> ___ XX_
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+o__ x__          <===> OO_ XX_
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+___ xx_          <===> OOO X__
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+___ x__          <===> OOO XX_
+Visiting:
+___ xxx          <===> OOO ___
+Visiting:
+ooo ___          <===> ___ XXX
+Visiting:
+ooo xxx <===>          ___ ___
+Visiting:
+ooo xx_ <===>          ___ X__
+Visiting:
+ooo x__ <===>          ___ XX_
+Visiting:
+oo_ xx_ <===>          O__ X__
+Visiting:
+ooo ___ <===>          ___ XXX
+Visiting:
+___ xxx <===>          OOO ___
+Visiting:
+___ xxx <===>          OOO ___
+Visiting:
+ooo ___ <===>          ___ XXX
+Visiting:
+o__ x__ <===>          OO_ XX_
+
+End State:
+___ ___          <===> OOO XXX
+
+Applying: Hill Climbing Search Algorithm
+
+Current:
+ooo xxx <===>          ___ ___
+Current score: 0
+Next:
+oo_ xx_          <===> O__ X__
+Next score: 2
+Moving into the next best state...
+Current:
+oo_ xx_          <===> O__ X__
+Current score: 2
+Next:
+ooo xx_ <===>          ___ X__
+Next score: 1
+Current score greater than next, stopping...
+
+End State:
+oo_ xx_          <===> O__ X__
