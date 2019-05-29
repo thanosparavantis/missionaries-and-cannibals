@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1fafea6-1ae3-40db-a290-66be5cc477a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/missionaries_cannibals_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/papei/thanos/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/papei/thanos/BreadthFirstSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/papei/thanos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/papei/thanos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/papei/thanos/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/papei/thanos/State.java" afterDir="false" />
-    </list>
+    <list default="true" id="f1fafea6-1ae3-40db-a290-66be5cc477a2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +75,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thanos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="missionaries-cannibals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="missionaries-cannibals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +148,7 @@
       <workItem from="1557689612557" duration="71000" />
       <workItem from="1558004298446" duration="5591000" />
       <workItem from="1558369681066" duration="1000" />
-      <workItem from="1559153144796" duration="1143000" />
+      <workItem from="1559153144796" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="Let's get started...">
       <created>1557656013508</created>
@@ -157,11 +157,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557656013508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update!!!">
+      <created>1559154349342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559154349343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20850000" />
+    <option name="totallyTimeSpent" value="21055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="998" extended-state="6" />
@@ -242,7 +249,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Let's get started..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Let's get started..." />
+    <MESSAGE value="Update!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update!!!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/production/missionaries-cannibals/com/papei/thanos/Main.class">
@@ -315,13 +323,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/papei/thanos/BestFirstSearch.java" />
     <entry file="jar:///usr/lib/jvm/openjdk-11/lib/src.zip!/java.base/java/util/Comparator.java">
@@ -407,6 +408,16 @@
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
