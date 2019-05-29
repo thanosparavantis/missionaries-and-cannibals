@@ -58,6 +58,19 @@ public final class State {
         return boatLocation;
     }
 
+    public int getHeuristicValue() {
+        int score = 0;
+
+        score += missionariesRight;
+        score += cannibalsRight;
+
+        if ((missionariesRight > 0 && cannibalsRight > 0) && boatLocation == BoatLocation.Left) {
+            score *= 2;
+        }
+
+        return score;
+    }
+
     @Override
     public String toString() {
         StringBuilder buffer = new StringBuilder();
@@ -104,12 +117,6 @@ public final class State {
         }
 
         State otherState = (State) obj;
-
-//        System.out.println(missionariesLeft + " == " + otherState.getMissionariesLeft());
-//        System.out.println(cannibalsLeft + " == " + otherState.getCannibalsLeft());
-//        System.out.println(missionariesRight + " == " + otherState.getMissionariesRight());
-//        System.out.println(cannibalsRight + " == " + otherState.getCannibalsRight());
-//        System.out.println(boatLocation + " == " + otherState.getBoatLocation());
 
         return missionariesLeft == otherState.getMissionariesLeft()
                 && cannibalsLeft == otherState.getCannibalsLeft()

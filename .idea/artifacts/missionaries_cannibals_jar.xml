@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="missionaries-cannibals:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/missionaries_cannibals_jar</output-path>
+    <root id="archive" name="missionaries-cannibals.jar">
+      <element id="module-output" name="missionaries-cannibals" />
+    </root>
+  </artifact>
+</component>
